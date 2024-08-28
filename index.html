@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairul Gani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo-container">
+            <img src="logoganikecil.png" alt="Chairul Gani Logo" class="logo-image primary-logo">
+            <img src="logo gani handwriting.png" alt="Second Logo" class="logo-image secondary-logo">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Education</a></li>
+                <li><a href="#socials">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div>
+            <img src="logoganikecil.png" alt="Chairul Gani Logo" class="logo-image">
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#portfolio" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#socials" onclick="toggleMenu()">Portfolio</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./logo gani full1.png" alt="gani drilling">
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Untitled-11.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p class="section__text__p2">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
+                    <p>
+                        Hello my name is Chairul Gani , usually called Gani.<br>
+                        I am a graphic designer & photographer from Jogja.<br>This is a web portfolio that I made.<br>Don't forget to join my discord on the icon below.</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/chairul.gani/" target="_blank"><img src="instagram (2).png" alt="Instagram" class="icon"></a>
+                            <a href="https://www.threads.net/@chairul.gani" target="_blank"><img src="threads (2).png" alt="Threads" class="icon"></a>
+                            <a href="https://www.youtube.com/" target="_blank"><img src="youtube (1).png" alt="YouTube" class="icon"></a>
+                            <a href="https://discord.gg/8hTr3tdwvh" target="_blank"><img src="discord (1).png" alt="Discord" class="icon"></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <img src="./downward-arrow.png" alt="Arrow icon"class="icon arrow" onclick="location.href='#portfolio'">
+    </section>
+    <section id="portfolio">
+        <h1 class="title">Education</h1>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="verified.png" alt="verified" class="icon">
+                    <h3>Experience</h3>
+                    <p>6 Month Intership<br>at Fafa Media Studio</p>
+                    <p><br>Pass photo<br>Logo Design<br>Poster design<br>Wedding Invitation
+                </div>
+                <div class="details-container">
+                    <img src="books.png" alt="books" class="icon">
+                    <h3>Education</h3>
+                    <p>3 Years Vocational High School <br>at SMK Negeri 2 Sewon</p>
+                    <p><br>Word<br>Excel<br>Coreldraw<br>Photoshop<br>Power Point<br>Adobe Animate<br>Adobe Illustrator</p>
+                </div>
+            </div>
+        </div>
+        <img src="./downward-arrow.png" alt="Arrow icon"class="icon arrow" onclick="location.href='#socials'">
+    </section>
+    <section id="socials">
+        <h1 class="title">Portfolio</h1>
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="Project Brosur GANi NEW-1.jpg" alt="Portfolio Image 1">
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="Project Brosur GANi NEW-2.jpg" alt="Portfolio Image 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="cover revisi.png" alt="Portfolio Image 3">
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="poster revisi.png" alt="Portfolio Image 4">
+                </div>
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <img src="CD revisi.png" alt="Portfolio Image 5">
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <hr class="footer-divider">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Branding Discord puteh.png" alt="Chairul Gani Logo" class="footer-logo-image">
+            </div>
+            <div class="footer-text">
+                <p>© 2024 Chairul Gani. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
